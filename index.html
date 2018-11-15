@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <link href='css/bootstrap.min.css' rel='stylesheet'>
+  <link href='css/mystyles.css' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -9,33 +12,40 @@
   <div class="jumbotron-header">
     <div class="transbox-header">
       <h1> Perfect Dinner Party </h1>
-      <h2> These three simple recipes will definitely impress your mum! </h2>
+      <h3><b> These three simple recipes will definitely impress your mum! </b></h3>
     </div>
   </div>
   <!--About-->
   <div id="about-section">
     <div class="container">
-      <h3> About </h3>
       <p> Perfect Dinner Party is your number one stop for cooking impressive meals... without the hassle! </p>
       <p> We've made it easy for you to cook delicious food without leafing through all those recipe books. </p>
+      <p> Click on any of the delicious dishes below to find out how to make them! </p>
     </div>
   </div>
 
-  <a href="soup.html">
-    <img src="starter.png" alt="picture of soup" style="width:450px;height:450px;border:0;">
-  </a>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="soup.html">
+        <img src="pictures/starter.png" alt="picture of soup" style="width:450px;height:450px;border:0;">
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a href="main.html">
+        <img src="pictures/main.jpg" alt="picture of curry" style="width:450px;height:450px;border:0;">
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a href="dessert.html">
+        <img src="pictures/dessert.jpeg" alt="picture of the dessert" style="width:450px;height:450px;border:0;">
+      </a>
+    </div>
+  </div>
 
-  <a href="main.html">
-    <img src="main.jpg" alt="picture of curry" style="width:450px;height:450px;border:0;">
-  </a>
-
-  <a href="dessert.html">
-    <img src="dessert.jpeg" alt="picture of the dessert" style="width:450px;height:450px;border:0;">
-  </a>
 
   <!--Contact-->
-    <div class="container">
-      <h3> Let us know what you think! </h3>
-    </div>
+  <div class="container">
+    <h3> Let us know what you think! </h3>
+  </div>
 </body>
 </html>
