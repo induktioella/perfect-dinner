@@ -11,9 +11,16 @@ h1 {
 }
 
 h2 {
+    font-family: "Roboto Slab";
+    font-size: 25px;
+}
+
+h3 {
     font-family: "Raleway";
     font-size: 22px;
 }
+
+
 
 p {
     font-family: "Raleway";
