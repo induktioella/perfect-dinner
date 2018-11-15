@@ -4,3 +4,18 @@ body {
     background-size: 300px;
 
 }
+
+h1 {
+    font-family: "Roboto Slab";
+    font-size: 45px;
+}
+
+h2 {
+    font-family: "Raleway";
+    font-size: 22px;
+}
+
+p {
+    font-family: "Raleway";
+    font-size: 18px;
+}
