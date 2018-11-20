@@ -9,6 +9,11 @@ h1 {
     font-size: 45px;
 }
 
+a {
+  font-family: "Roboto Slab";
+  font-size: 45px;
+}
+
 h2 {
     font-family: "Roboto Slab";
     font-size: 25px;
