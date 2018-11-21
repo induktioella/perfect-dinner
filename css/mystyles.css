@@ -2,6 +2,7 @@ body {
     background-image: URL("../pictures/821.jpg");
     background-repeat: repeat;
     background-size: 300px;
+    padding-top: 79px;
 }
 
 h1 {
